@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:layout_width="fill_parent">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+
+
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+
+<EditText android:id="@+id/EditText01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="numberDecimal" android:maxLines="1" android:maxLength="5" android:text="@string/denominator1"></EditText><EditText android:id="@+id/EditText02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="numberDecimal" android:maxLines="1" android:maxLength="5" android:text="@string/numerator1"></EditText>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+<EditText android:id="@+id/EditText03" android:layout_height="wrap_content" android:inputType="numberDecimal" android:maxLines="1" android:maxLength="5" android:text="@string/numerator2" android:layout_width="wrap_content"></EditText>
+<EditText android:id="@+id/EditText04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="numberDecimal" android:maxLines="1" android:maxLength="5" android:text="@string/denominator2"></EditText></LinearLayout>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal"><Button android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calc" android:onClick="@string/buttonHandler"></Button><Button android:id="@+id/Button02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear" android:onClick="@string/clearHandler"></Button></LinearLayout>
+
+
+
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/error"></TextView>
+</LinearLayout>

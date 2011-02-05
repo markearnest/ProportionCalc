@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Fill out three of the four fields and this program will solve for the blank one</string>
+    <string name="app_name">Proportion Calculator</string>
+
+
+<string name="numerator1"></string>
+<string name="denominator1"></string>
+<string name="numerator2"></string>
+<string name="denominator2"></string>
+<string name="calc">Calculate</string>
+<string name="clear">Clear</string>
+<string name="buttonHandler">onClickHandler</string>
+<string name="clearHandler">onClearHandler</string>
+<string name="error"></string>
+</resources>
